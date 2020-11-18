@@ -47,7 +47,7 @@ namespace esercitazione
             {
                 if (value > 2020)
                 {
-                    throw new Exception("annoo non riconosciuto");
+                    throw new Exception("anno non riconosciuto");
                 }
             }
             
@@ -66,7 +66,7 @@ namespace esercitazione
             {
                 if (value <= 0)
                 {
-                    throw new Exception("pagine non riconosciute");
+                    throw new Exception("numero pagine non accettabile");
                 }
             }
             get => default;
@@ -87,7 +87,7 @@ namespace esercitazione
             }
             else
             {
-                throw new Exception("tempo troppo breve");
+                throw new Exception("numero pagine troppo piccolo");
             }
         }
 
