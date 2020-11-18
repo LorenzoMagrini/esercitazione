@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.IO;
 
 namespace esercitazione
 {
@@ -23,6 +24,22 @@ namespace esercitazione
         public MainWindow()
         {
             InitializeComponent();
+
+            LeggiFile();
+        }
+
+        private void LeggiFile()
+        {
+            using (StreamReader sr = new StreamReader("libri.txt")
+            {
+                while (!sr.EndOfStream)
+                {
+                    string[] libro = sr.ReadLine().Split('-');
+                    lstSquadra.Items.Add(libro[0] + " - " + libro[1] + " - " + libro[2] + " - " + libro[3]);
+                    Calciatore a = new Calciatore(libro[0], libro[1], int.Parse(libro[2]), libro[3]);
+                    Squadra.Add(a);
+                }
+            }
         }
     }
 }

@@ -11,6 +11,24 @@
         <Button Content="CERCA TITOLO" HorizontalAlignment="Left" Margin="224,182,0,0" VerticalAlignment="Top" Width="158" Height="71"/>
         <Button Content="AGGIUNGI LIBRO" HorizontalAlignment="Left" Margin="19,182,0,0" VerticalAlignment="Top" Width="158" Height="71"/>
         <Button Content="NUMERO LIBRI " HorizontalAlignment="Left" Margin="612,182,0,0" VerticalAlignment="Top" Width="158" Height="71"/>
+        <TextBox x:Name="txtTitolo" HorizontalAlignment="Left" Height="96" Margin="58,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" d:IsHidden="True"/>
+        <Button x:Name="btnCercaTitolo" Content="CERCA" HorizontalAlignment="Left" Height="96" Margin="444,157,0,0" VerticalAlignment="Top" Width="255" d:IsHidden="True"/>
+        <Label x:Name="lblTitolo" Content="INSERISCI TITOLO LBRO" HorizontalAlignment="Left" Height="41" Margin="58,83,0,0" VerticalAlignment="Top" Width="255" d:IsHidden="True"/>
+        <TextBox x:Name="txtAutore" HorizontalAlignment="Left" Height="96" Margin="58,157,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="255" d:IsHidden="True"/>
+        <Button x:Name="btnCercaTitoliAutore" Content="CERCA" HorizontalAlignment="Left" Height="96" Margin="444,157,0,0" VerticalAlignment="Top" Width="255" d:IsHidden="True"/>
+        <Label x:Name="lblAutore" Content="INSERISCI NOME AUTORE" HorizontalAlignment="Left" Height="41" Margin="58,83,0,0" VerticalAlignment="Top" Width="255" d:IsHidden="True"/>
+        <TextBox x:Name="txtAutore1" HorizontalAlignment="Left" Height="40" Margin="194,87,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <TextBox x:Name="txtTitolo1" HorizontalAlignment="Left" Height="40" Margin="194,157,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <TextBox x:Name="txtAnno" HorizontalAlignment="Left" Height="40" Margin="194,224,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <TextBox x:Name="txtEditore" HorizontalAlignment="Left" Height="40" Margin="194,289,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <TextBox x:Name="txtPagine" HorizontalAlignment="Left" Height="40" Margin="194,357,0,0" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <Label x:Name="lblCreaLibro" Content="CREAZIONE LIBRO" HorizontalAlignment="Left" Height="68" Margin="58,10,0,0" VerticalAlignment="Top" Width="664" d:IsHidden="True"/>
+        <Label x:Name="lblAutore1" Content="INSERISCI L'AUTORE" HorizontalAlignment="Left" Height="40" Margin="19,87,0,0" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <Label x:Name="lblTitolo1" Content="INSERISCI IL TITOLO" HorizontalAlignment="Left" Height="40" Margin="19,157,0,0" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <Label x:Name="lblAnno" Content="INSERISCI L'ANNO" HorizontalAlignment="Left" Height="40" Margin="19,224,0,0" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <Label x:Name="lblEditore" Content="INSERISCI L'EDITORE" HorizontalAlignment="Left" Height="40" Margin="19,289,0,0" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <Label x:Name="lblPagine" Content="INSERISCI PAGINE" HorizontalAlignment="Left" Height="40" Margin="19,357,0,0" VerticalAlignment="Top" Width="139" d:IsHidden="True"/>
+        <Button x:Name="btnCrea" Content="CREA" HorizontalAlignment="Left" Height="106" Margin="422,169,0,0" VerticalAlignment="Top" Width="277" d:IsHidden="True"/>
 
     </Grid>
 </Window>
