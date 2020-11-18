@@ -21,6 +21,8 @@ namespace esercitazione
     /// </summary>
     public partial class MainWindow : Window
     {
+        private List<Libro> Libri;
+
         public MainWindow()
         {
             InitializeComponent();
@@ -30,16 +32,23 @@ namespace esercitazione
 
         private void LeggiFile()
         {
-            using (StreamReader sr = new StreamReader("libri.txt")
+            Libri = new List<Libro>();
+
+            using (StreamReader sr = new StreamReader("libri.txt"))
             {
                 while (!sr.EndOfStream)
                 {
-                    string[] libro = sr.ReadLine().Split('-');
-                    lstSquadra.Items.Add(libro[0] + " - " + libro[1] + " - " + libro[2] + " - " + libro[3]);
-                    Calciatore a = new Calciatore(libro[0], libro[1], int.Parse(libro[2]), libro[3]);
-                    Squadra.Add(a);
+                    string[] libro = sr.ReadLine().Split(',');
+                    Libro a = new Libro(libro[0], libro[1], int.Parse(libro[2]), libro[3], int.Parse(libro[4]));
+                    Libri.Add(a);
                 }
             }
+            
+               
+                    
+                        
+                    
+            
         }
     }
 }

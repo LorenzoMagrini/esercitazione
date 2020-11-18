@@ -1,0 +1,15 @@
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\bin\Debug\esercitazione.exe.config
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\bin\Debug\esercitazione.exe
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\bin\Debug\esercitazione.pdb
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione.csprojAssemblyReference.cache
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\MainWindow.g.cs
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\App.g.cs
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione_MarkupCompile.cache
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione_MarkupCompile.lref
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\MainWindow.baml
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione.g.resources
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione.Properties.Resources.resources
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione.csproj.GenerateResource.cache
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione.csproj.CoreCompileInputs.cache
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione.exe
+C:\Users\lorenzo.magrini.4g\Documents\esercitazione\esercitazione\obj\Debug\esercitazione.pdb
