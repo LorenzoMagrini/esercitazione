@@ -21,6 +21,11 @@ namespace esercitazione
         public int _anno;
         public string _editore;
         public int _numeroPagine;
+        List<Libro> libro = new List<Libro>();
+        public Libro(string titolo, string autore, int anno, string editore, int numeroPagine)
+        {
+
+        }
 
         public string TitoloLibro
         {
@@ -34,8 +39,16 @@ namespace esercitazione
         }
         public int anno
         {
-            set;
-            get;
+            set
+            {
+                if (value > 2020)
+                {
+                    throw new Exception("annoo non riconosciuto");
+                }
+            }
+            
+                get => default;
+            
            
         }
         public string Editore
@@ -45,10 +58,34 @@ namespace esercitazione
         }
         public int NumeroPagine
         {
-            set;
-            get;
+            set
+            {
+                if (value <= 0)
+                {
+                    throw new Exception("pagine non riconosciute");
+                }
+            }
+            get => default;
         }
-     
+        public int ReadingTime(int numeroPagine)
+        {
+            if(numeroPagine<100)
+            {
+                return 1;
+            }
+            if (numeroPagine <= 100 || numeroPagine <= 200)
+            {
+                return 2;
+            }
+            if (numeroPagine > 200)
+            {
+                return 3;//numero superiore a 2
+            }
+            else
+            {
+                throw new Exception("tempo troppo breve");
+            }
+        }
 
     }
 }
