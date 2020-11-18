@@ -24,7 +24,11 @@ namespace esercitazione
         List<Libro> libro = new List<Libro>();
         public Libro(string titolo, string autore, int anno, string editore, int numeroPagine)
         {
-
+            _titoloLibro = titolo;
+            _autore = autore;
+            _anno = anno;
+            _editore = editore;
+            _numeroPagine = numeroPagine;
         }
 
         public string TitoloLibro
