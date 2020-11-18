@@ -22,5 +22,33 @@ namespace esercitazione
         public string _editore;
         public int _numeroPagine;
 
+        public string TitoloLibro
+        {
+            set;
+            get;
+        }
+        public string Autore
+        {
+            set;
+            get;
+        }
+        public int anno
+        {
+            set;
+            get;
+           
+        }
+        public string Editore
+        {
+            set;
+            get;
+        }
+        public int NumeroPagine
+        {
+            set;
+            get;
+        }
+     
+
     }
 }
