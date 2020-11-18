@@ -13,24 +13,33 @@ namespace esercitazione
         public Biblioteca(string name; string indiriz; string apertura; string chiusura )
             {  
              nome=name;
+             indirizzo= indirizz;
+             orarioApertura=apertura;
+             orarioChiusura=chiusura;
 
             }
 
         public string Nome
+    {
+        get
         {
-            get => default;
-            set
-            {
-            }
+            return default;
         }
 
-        public string Indirizzo
+        set
         {
+        }
+    }
+
+    public string Indirizzo
+
+    {
             get => default;
             set
             {
             }
-        }
+
+
 
         public string OrarioApertura
         {
@@ -58,9 +67,14 @@ namespace esercitazione
             throw new System.NotImplementedException();
         }
 
-        public void aggiungiLIbro()
-        {
-            throw new System.NotImplementedException();
-        }
+    public void AggiungiLIbro()
+    {
+        throw new NotImplementedException();
     }
+
+    public void RicercaLibro()
+    {
+        throw new NotImplementedException();
+    }
+}
 }
