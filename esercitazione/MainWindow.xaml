@@ -1,0 +1,16 @@
+﻿<Window x:Class="esercitazione.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:esercitazione"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="CERCA TITOLI DI UN AUTORE" HorizontalAlignment="Left" Margin="422,182,0,0" VerticalAlignment="Top" Width="158" Height="71"/>
+        <Button Content="CERCA TITOLO" HorizontalAlignment="Left" Margin="224,182,0,0" VerticalAlignment="Top" Width="158" Height="71"/>
+        <Button Content="AGGIUNGI LIBRO" HorizontalAlignment="Left" Margin="19,182,0,0" VerticalAlignment="Top" Width="158" Height="71"/>
+        <Button Content="NUMERO LIBRI " HorizontalAlignment="Left" Margin="612,182,0,0" VerticalAlignment="Top" Width="158" Height="71"/>
+
+    </Grid>
+</Window>
