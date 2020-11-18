@@ -7,7 +7,16 @@ namespace esercitazione
 {
     public class Biblioteca
     {
-        public int memNome
+        string nome; string indirizzo; string orarioApertura; string orarioChiusura;
+
+        List<Libro> libri;
+        public Biblioteca(string name; string indiriz; string apertura; string chiusura )
+            {  
+             nome=name;
+
+            }
+
+        public string Nome
         {
             get => default;
             set
@@ -15,7 +24,7 @@ namespace esercitazione
             }
         }
 
-        public int indirizzo
+        public string Indirizzo
         {
             get => default;
             set
@@ -23,7 +32,7 @@ namespace esercitazione
             }
         }
 
-        public int orarioApertura
+        public string OrarioApertura
         {
             get => default;
             set
@@ -31,7 +40,7 @@ namespace esercitazione
             }
         }
 
-        public int orarioChiusura
+        public string OrarioChiusura
         {
             get => default;
             set
@@ -44,7 +53,12 @@ namespace esercitazione
             throw new System.NotImplementedException();
         }
 
-        public void elencoLibri()
+        public void ElencoLibri()
+        {
+            throw new System.NotImplementedException();
+        }
+
+        public void aggiungiLIbro()
         {
             throw new System.NotImplementedException();
         }

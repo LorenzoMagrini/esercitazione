@@ -1,9 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
   <Class Name="esercitazione.Biblioteca">
-    <Position X="7.75" Y="2.5" Width="1.5" />
+    <Position X="7.25" Y="1.75" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAABAAAAAAAAAAAAAQAEAAQAAAAAAAAAAAARAAAA=</HashCode>
+      <HashCode>AAEAAABAEAAAAAAAAAAAQAEAAQAAAAAAAAAAAARAAAA=</HashCode>
       <FileName>Biblioteca.cs</FileName>
     </TypeIdentifier>
   </Class>
